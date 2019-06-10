@@ -46,7 +46,7 @@ class Game {
     this.target.draw(ctx);
     this.pb.draw(ctx);
     ctx.textAlign="end";
-    ctx.font = '18px Orbitron';
+    ctx.font = '18px Bangers';
     ctx.fillStyle="#ffffff";
     ctx.fillText(`dist: ${this.dist}`, 685, 25);
     ctx.fillText(`clicks: ${this.clicks}`, 685, 60);
