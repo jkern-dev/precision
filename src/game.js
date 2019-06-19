@@ -47,8 +47,8 @@ class Game {
     this.pb.draw(ctx);
     ctx.textAlign="end";
     ctx.font = '18px Bangers';
-    ctx.fillStyle="#ffffff";
-    ctx.fillText(`dist: ${this.dist}`, 685, 25);
+    ctx.fillStyle ="#404040";
+    ctx.fillText(`distance: ${this.dist}`, 685, 25);
     ctx.fillText(`clicks: ${this.clicks}`, 685, 60);
   }
 
